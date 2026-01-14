@@ -12,3 +12,6 @@ Route::get('/scaner', function(){
 });
 
 
+Route::get('/scanner2', function(){
+    return view("scaner.scaner");
+});
